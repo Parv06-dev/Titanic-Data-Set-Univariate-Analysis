@@ -59,7 +59,8 @@ The Titanic dataset contains a **higher proportion of male passengers than femal
 
 This gives us an initial understanding of the gender composition of the passengers.
 
-![Gender Distribution](images/gender_distribution.png)
+<img width="389" height="389" alt="gender_distribution" src="https://github.com/user-attachments/assets/f39a9aa7-87a0-4ec0-abf9-9e3e071b2db8" />
+
 
 ---
 
@@ -76,7 +77,8 @@ Approximately **61.6% of the passengers did not survive**, while the remaining p
 
 This shows that the majority of passengers in the dataset lost their lives in the Titanic disaster.
 
-![Survival Distribution](images/survival_distribution.png)
+<img width="389" height="389" alt="survival_distribution" src="https://github.com/user-attachments/assets/abe7b1ca-9d09-4280-8f7e-6e209159f8a1" />
+
 
 ---
 
@@ -98,7 +100,9 @@ The majority of passengers boarded from **Southampton**, followed by **Cherbourg
 
 Southampton accounts for a substantially larger portion of the passengers than the other two ports.
 
-![Embarked Distribution](images/embarked_distribution.png)
+<img width="389" height="389" alt="embarked_distribution" src="https://github.com/user-attachments/assets/b686f27e-cb9f-47cf-a18e-eb98a5f69a4c" />
+
+
 
 ---
 
@@ -118,7 +122,8 @@ The bar chart shows that **third-class passengers form the largest group** in th
 
 This indicates that a significant proportion of the passengers travelled in third class.
 
-![Passenger Class Bar Chart](images/pclass_bar.png)
+<img width="552" height="427" alt="pclass_bar" src="https://github.com/user-attachments/assets/f3346163-c8a9-4eb7-9401-2d932b1a517f" />
+
 
 ---
 
@@ -134,7 +139,8 @@ The pie chart makes the proportion of passengers in each class easier to compare
 
 > Note: The fact that third class was the largest group does not, by itself, prove that passengers selected it because it was cheaper. That would require additional information or analysis involving fare/class.
 
-![Passenger Class Distribution](images/pclass_pie.png)
+<img width="389" height="389" alt="pclass_pie" src="https://github.com/user-attachments/assets/73b7fb1c-b3e3-4fd4-8ef1-3f05f472bd21" />
+
 
 ---
 
@@ -158,7 +164,8 @@ The number of observations in the five bins is:
 
 The distribution decreases as age increases, with relatively few passengers in the oldest age group.
 
-![Age Histogram](images/age_histogram.png)
+<img width="552" height="413" alt="age_histogram" src="https://github.com/user-attachments/assets/3dfcf693-0f42-4eee-b35d-48c2f0d94c5a" />
+
 
 ---
 
@@ -172,7 +179,8 @@ The density is highest among the **younger and middle-aged passengers**, while t
 
 The KDE provides a smoother representation of the age distribution compared with the histogram.
 
-![Age KDE Plot](images/age_kde.png)
+<img width="585" height="432" alt="age_kde" src="https://github.com/user-attachments/assets/594230c6-21d2-4c9f-9a8c-ddf49f48507b" />
+
 
 ---
 
@@ -191,7 +199,8 @@ The box plot provides information about:
 
 There are some observations at the higher end of the age range that appear as potential outliers relative to the central distribution.
 
-![Age Box Plot](images/age_boxplot.png)
+<img width="563" height="394" alt="age_boxplot" src="https://github.com/user-attachments/assets/bcfb359c-d1c6-4951-b208-fb3b8623f91e" />
+
 
 ---
 
@@ -244,15 +253,5 @@ Titanic-Univariate-Analysis/
 ├── Univariate data_Analysis.ipynb
 ├── Train.csv
 ├── README.md
-│
-└── images/
-    ├── gender_distribution.png
-    ├── survival_distribution.png
-    ├── embarked_distribution.png
-    ├── pclass_bar.png
-    ├── pclass_pie.png
-    ├── age_histogram.png
-    ├── age_kde.png
-    └── age_boxplot.png
 ```
 
